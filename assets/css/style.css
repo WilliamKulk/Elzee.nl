@@ -1,0 +1,184 @@
+@font-face {
+	font-family: 'hitandrun';
+	src: url('../fonts/hitandrun.otf');
+}
+
+* {
+	font-family: arial, sans-serif;
+	color: #545454;
+}
+
+html,
+body {
+	margin: 0;
+	height: 100%;
+}
+
+.wrapper {
+	background-image: url("../images/elzee_background.jpg");
+    background-size: cover;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.wrapper.indexPage {
+  	justify-content: center;
+}
+
+.mainSection {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: -40px;
+}
+
+.mainSection .searchContainer {
+	margin-top: 8px;
+	width: 100%;
+	max-width: 800px;
+}
+
+.mainSection .searchContainer form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.searchContainer .searchButton {
+	font-family: 'hitandrun', sans-serif;
+	color: #fff;
+	background-color: #f8cc72;
+	border: none;
+	height: 44px;
+	width: 125px;
+	border-radius: 5px;
+	font-size: 15px;
+	letter-spacing: 0.2em;
+	padding-top: 4px;
+	margin-top: 20px;
+	cursor: pointer;
+	outline: none;
+}
+
+.mainSection .searchContainer .searchBox {
+	border: none;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	height: 44px;
+	border-radius: 5px;
+	outline: none;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 16px;
+	width: 70%;
+	min-width:; 630px;
+	color: #000;
+}
+
+.headerText {
+	margin: 10px 0 10px 0;
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+}
+
+.wrapperSearch {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.header {
+	background-color: #64beb6;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.wrapperSearch .headerContent {
+	display: flex;
+	align-items: center;
+}
+
+.headerContent .logoContainerSearch {
+	width: 220px;
+	padding: 5px 20px;
+	box-sizing: border-box;
+}
+
+.headerContent .searchContainer {
+	flex: 1;
+}
+
+.headerContent .searchContainer form {
+	margin: 18px 0 22px 0;
+}
+
+
+.headerContent .searchBarContainer {
+	height: 44px;
+	backgroundcolor: #fff;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	width: 70%;
+	max-width: 630px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.headerContent .searchBarContainer .searchBox {
+	flex: 1;
+	border: none;
+	background-color: #fff;
+	padding: 12px;
+	font-size: 16px;
+	color: 000;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	outline: none;
+}
+
+.headerContent .searchBarContainer .searchButton {
+	background-color: #fff;
+	height: 44px;
+	margin-top: 0;
+	width: 44px;
+	padding-right: 20px;
+	display: flex;
+	justify-content: center;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.headerContent .searchBarContainer .searchButton img {
+	width: 20px;
+}
+
+.tabsContainer {
+	margin-left: 220px;
+}
+
+.tabsContainer .tabList {
+	padding: 0;
+	margin: 0;
+}
+
+.tabsContainer .tabList li {
+	display: inline-block;
+	padding: 0 16px 12px 16px;
+	color: #777;
+	font-size: 13px;
+}
+
+.tabsContainer .tabList li a {
+	text-decoration: none;
+}
+
+.tabsContainer .tabList li.active {
+	border-bottom: 3px solid #f8cc72;
+}
+
+.tabsContainer .tabList li.active a {
+	font-weight: bold;
+	color: #f8cc72;
+}
+
+
+
