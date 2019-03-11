@@ -175,6 +175,6 @@ function followLinks($url) {
 
 }
 
-$startUrl = "http://www.williamkulk.nl";
+$startUrl = "http://www.nickelodeon.nl";
 followLinks($startUrl);
 ?>
